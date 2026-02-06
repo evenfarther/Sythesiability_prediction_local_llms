@@ -1,0 +1,15 @@
+{
+  "balanced_accuracy": NaN,
+  "fn": 10,
+  "fp": 0,
+  "n_neg": 0,
+  "n_pos": 262,
+  "n_total": 262,
+  "precision": 1.0,
+  "roc_auc": NaN,
+  "threshold": 0.0024505776818841696,
+  "tn": 0,
+  "tnr_specificity": NaN,
+  "tp": 252,
+  "tpr_recall": 0.9618320610687023
+}
