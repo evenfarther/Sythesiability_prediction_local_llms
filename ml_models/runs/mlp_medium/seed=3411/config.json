@@ -1,0 +1,110 @@
+{
+  "arch": "medium",
+  "batch_size": 2048,
+  "best_epoch": 27,
+  "best_lr": 0.001,
+  "best_threshold": 0.13741527497768402,
+  "datasets_dir": "ml_models/artifacts/datasets",
+  "device": "cpu",
+  "dropout": 0.1,
+  "env": {
+    "git_commit": null,
+    "numpy": "2.4.1",
+    "pandas": "3.0.0",
+    "pymatgen": null,
+    "python": "3.11.14 | packaged by conda-forge | (main, Jan 26 2026, 23:48:32) [GCC 14.3.0]",
+    "scikit_learn": "1.8.0",
+    "timestamp_utc": "2026-01-27T12:56:38+00:00",
+    "torch": "2.7.0+cpu",
+    "xgboost": "3.1.3"
+  },
+  "eval_batch_size": 8192,
+  "feature_set": "v1",
+  "features_train": "ml_models/artifacts/features/features_v1_train.npz",
+  "features_valid": "ml_models/artifacts/features/features_v1_valid.npz",
+  "features_valid_hem_only": "ml_models/artifacts/features/features_v1_valid_hem_only.npz",
+  "hidden_sizes": [
+    1024,
+    1024,
+    1024
+  ],
+  "inner_split_seed": 3411,
+  "lr_grid": [
+    0.0001,
+    0.0003,
+    0.001
+  ],
+  "max_epochs": 50,
+  "model": "mlp_medium",
+  "num_workers": 0,
+  "parameter_count": 2226177,
+  "patience": 5,
+  "retrain_full": true,
+  "seed": 3411,
+  "tune_frac": 0.1,
+  "tune_search": [
+    {
+      "best_auc": 0.9895591078204455,
+      "best_epoch": 50,
+      "lr": 0.0001,
+      "metrics_tune": {
+        "balanced_accuracy": 0.952041693555904,
+        "fn": 131,
+        "fp": 1799,
+        "n_neg": 28904,
+        "n_pos": 3890,
+        "n_total": 32794,
+        "precision": 0.6763224181360201,
+        "roc_auc": 0.9895591078204455,
+        "threshold": 0.30115583539009094,
+        "tn": 27105,
+        "tnr_specificity": 0.937759479656795,
+        "tp": 3759,
+        "tpr_recall": 0.9663239074550128
+      },
+      "threshold": 0.30115583539009094
+    },
+    {
+      "best_auc": 0.9902803234108193,
+      "best_epoch": 22,
+      "lr": 0.0003,
+      "metrics_tune": {
+        "balanced_accuracy": 0.9534728739477623,
+        "fn": 120,
+        "fp": 1798,
+        "n_neg": 28904,
+        "n_pos": 3890,
+        "n_total": 32794,
+        "precision": 0.6770833333333334,
+        "roc_auc": 0.9902803234108193,
+        "threshold": 0.26083725690841675,
+        "tn": 27106,
+        "tnr_specificity": 0.9377940769443676,
+        "tp": 3770,
+        "tpr_recall": 0.9691516709511568
+      },
+      "threshold": 0.26083725690841675
+    },
+    {
+      "best_auc": 0.9914591615040517,
+      "best_epoch": 27,
+      "lr": 0.001,
+      "metrics_tune": {
+        "balanced_accuracy": 0.9566588750136076,
+        "fn": 101,
+        "fp": 1755,
+        "n_neg": 28904,
+        "n_pos": 3890,
+        "n_total": 32794,
+        "precision": 0.6834415584415584,
+        "roc_auc": 0.9914591615040517,
+        "threshold": 0.13741527497768402,
+        "tn": 27149,
+        "tnr_specificity": 0.9392817603099917,
+        "tp": 3789,
+        "tpr_recall": 0.9740359897172236
+      },
+      "threshold": 0.13741527497768402
+    }
+  ]
+}

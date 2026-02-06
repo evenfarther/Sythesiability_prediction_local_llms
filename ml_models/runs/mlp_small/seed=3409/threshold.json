@@ -1,0 +1,5 @@
+{
+  "metric": "bAcc",
+  "selected_on": "train_tune",
+  "threshold": 0.28820347785949707
+}
