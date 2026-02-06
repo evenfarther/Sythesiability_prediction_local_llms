@@ -41,7 +41,6 @@ For classical ML baselines, see `ml_models/README.md`.
 The LLM experiments fine-tune LoRA adapters on top of the following open-weight base models
 (typically loaded in 4-bit for QLoRA):
 
-- GPT-OSS-20B: `unsloth/gpt-oss-20b-unsloth-bnb-4bit`
 - GPT-OSS-20B: `unsloth/gpt-oss-20b-unsloth-bnb-4bit` (https://huggingface.co/unsloth/gpt-oss-20b-unsloth-bnb-4bit)
 - Qwen3-14B: `unsloth/Qwen3-14B-unsloth-bnb-4bit` (https://huggingface.co/unsloth/Qwen3-14B-unsloth-bnb-4bit)
 - DeepSeek-R1-Distill-Qwen-14B: `unsloth/DeepSeek-R1-Distill-Qwen-14B-unsloth-bnb-4bit` (https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-14B-unsloth-bnb-4bit)
