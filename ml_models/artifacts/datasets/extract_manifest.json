@@ -1,0 +1,10 @@
+{
+  "outputs": {
+    "train": "ml_models/artifacts/datasets/pn_train.parquet",
+    "valid": "ml_models/artifacts/datasets/pn_valid.parquet",
+    "valid_hem_only": "ml_models/artifacts/datasets/pn_valid_hem_only.parquet"
+  },
+  "train_jsonl": "/DATA/npj_compt.mat_project_github/data/train_llm_pn.jsonl",
+  "valid_hem_only_jsonl": "/DATA/npj_compt.mat_project_github/data/valid_hem_only_llm_pn.jsonl",
+  "valid_jsonl": "/DATA/npj_compt.mat_project_github/data/valid_llm_pn.jsonl"
+}

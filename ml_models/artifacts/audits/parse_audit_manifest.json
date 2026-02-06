@@ -1,0 +1,38 @@
+{
+  "outputs": {
+    "audit_md": "ml_models/artifacts/audits/dataset_audit_v1.md",
+    "env_json": "ml_models/artifacts/audits/env.json",
+    "leakage_csv": "ml_models/artifacts/audits/leakage_reduced_formula.csv",
+    "leakage_hem_only_csv": "ml_models/artifacts/audits/leakage_reduced_formula_hem_only.csv"
+  },
+  "r_entropy": 1.0,
+  "splits": {
+    "train": {
+      "bad_rows_parquet": null,
+      "features_npz": "ml_models/artifacts/features/features_v1_train.npz",
+      "n_bad": 0,
+      "n_in": 327935,
+      "n_ok": 327935,
+      "parsed_parquet": "ml_models/artifacts/datasets/pn_train_parsed.parquet",
+      "split": "train"
+    },
+    "valid": {
+      "bad_rows_parquet": null,
+      "features_npz": "ml_models/artifacts/features/features_v1_valid.npz",
+      "n_bad": 0,
+      "n_in": 36438,
+      "n_ok": 36438,
+      "parsed_parquet": "ml_models/artifacts/datasets/pn_valid_parsed.parquet",
+      "split": "valid"
+    },
+    "valid_hem_only": {
+      "bad_rows_parquet": null,
+      "features_npz": "ml_models/artifacts/features/features_v1_valid_hem_only.npz",
+      "n_bad": 0,
+      "n_in": 262,
+      "n_ok": 262,
+      "parsed_parquet": "ml_models/artifacts/datasets/pn_valid_hem_only_parsed.parquet",
+      "split": "valid_hem_only"
+    }
+  }
+}
