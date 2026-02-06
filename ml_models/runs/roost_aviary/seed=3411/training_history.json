@@ -1,0 +1,85 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.24261759683359993,
+      "tune_balanced_accuracy": 0.9306768012112786,
+      "tune_roc_auc": 0.980143095804425,
+      "tune_threshold": 0.45337921380996704,
+      "tune_tnr": 0.904027124273457,
+      "tune_tpr": 0.9573264781491002
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.17733788860000882,
+      "tune_balanced_accuracy": 0.9350435036432989,
+      "tune_roc_auc": 0.9832614854100836,
+      "tune_threshold": 0.5776500701904297,
+      "tune_tnr": 0.9125034597287572,
+      "tune_tpr": 0.9575835475578406
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.16176141130909927,
+      "tune_balanced_accuracy": 0.9383468419880509,
+      "tune_roc_auc": 0.9846238714524884,
+      "tune_threshold": 0.35308608412742615,
+      "tune_tnr": 0.9042001107113202,
+      "tune_tpr": 0.9724935732647815
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.15111546377231358,
+      "tune_balanced_accuracy": 0.9446777187064421,
+      "tune_roc_auc": 0.9866777763389417,
+      "tune_threshold": 0.44687241315841675,
+      "tune_tnr": 0.9204608358704678,
+      "tune_tpr": 0.9688946015424165
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.14351244884496675,
+      "tune_balanced_accuracy": 0.9471621330286164,
+      "tune_roc_auc": 0.9876569062589606,
+      "tune_threshold": 0.42954912781715393,
+      "tune_tnr": 0.9184887904788265,
+      "tune_tpr": 0.9758354755784062
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.13772901301196908,
+      "tune_balanced_accuracy": 0.9432441280665292,
+      "tune_roc_auc": 0.9867616191744036,
+      "tune_threshold": 0.5581575036048889,
+      "tune_tnr": 0.9199072792693053,
+      "tune_tpr": 0.9665809768637532
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.13061546686731537,
+      "tune_balanced_accuracy": 0.9496463961544181,
+      "tune_roc_auc": 0.9881740156404643,
+      "tune_threshold": 0.6188410520553589,
+      "tune_tnr": 0.9386244118461112,
+      "tune_tpr": 0.960668380462725
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.12864198066334154,
+      "tune_balanced_accuracy": 0.9469083899400693,
+      "tune_roc_auc": 0.9879102758035286,
+      "tune_threshold": 0.6159504652023315,
+      "tune_tnr": 0.9321201217824523,
+      "tune_tpr": 0.9616966580976863
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.12667875137572648,
+      "tune_balanced_accuracy": 0.9503464264648438,
+      "tune_roc_auc": 0.9891563918355382,
+      "tune_threshold": 0.4718509614467621,
+      "tune_tnr": 0.9343689454746748,
+      "tune_tpr": 0.9663239074550128
+    }
+  ]
+}

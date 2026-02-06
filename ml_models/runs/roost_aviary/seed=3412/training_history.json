@@ -1,0 +1,67 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.24974338809729593,
+      "tune_balanced_accuracy": 0.9292173382038724,
+      "tune_roc_auc": 0.9792557242946601,
+      "tune_threshold": 0.4712645411491394,
+      "tune_tnr": 0.8923678383614725,
+      "tune_tpr": 0.9660668380462725
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.18052297526677566,
+      "tune_balanced_accuracy": 0.9360573197899331,
+      "tune_roc_auc": 0.9830767768064052,
+      "tune_threshold": 0.5974583625793457,
+      "tune_tnr": 0.9093897038472184,
+      "tune_tpr": 0.9627249357326478
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.16357183149719748,
+      "tune_balanced_accuracy": 0.9380707663059062,
+      "tune_roc_auc": 0.9839779827842475,
+      "tune_threshold": 0.723580002784729,
+      "tune_tnr": 0.9185579850539718,
+      "tune_tpr": 0.9575835475578406
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.1544739571329603,
+      "tune_balanced_accuracy": 0.9417443934606324,
+      "tune_roc_auc": 0.9854486031945482,
+      "tune_threshold": 0.5227173566818237,
+      "tune_tnr": 0.9143371159701079,
+      "tune_tpr": 0.9691516709511568
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.1468269340064488,
+      "tune_balanced_accuracy": 0.9450672895008527,
+      "tune_roc_auc": 0.9865463288809262,
+      "tune_threshold": 0.48039954900741577,
+      "tune_tnr": 0.9286949903127595,
+      "tune_tpr": 0.961439588688946
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.13903841876136067,
+      "tune_balanced_accuracy": 0.9461776667660412,
+      "tune_roc_auc": 0.9872900593899352,
+      "tune_threshold": 0.6121498942375183,
+      "tune_tnr": 0.9242319402158871,
+      "tune_tpr": 0.9681233933161953
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.13599049743239935,
+      "tune_balanced_accuracy": 0.9495145351298546,
+      "tune_roc_auc": 0.9886070598388993,
+      "tune_threshold": 0.4328722059726715,
+      "tune_tnr": 0.9249930805424855,
+      "tune_tpr": 0.9740359897172236
+    }
+  ]
+}
